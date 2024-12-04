@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/547569a360.js" crossorigin="anonymous"></script>  
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="Logo">
+                <!-- Hamburger Icon -->
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i> <!-- Hamburger icon -->
+                </div>
+                <!-- Close Icon -->
+                <div class="close-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-xmark"></i> <!-- Close icon (X) -->
+                </div>
+                <ul id="menu" class="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p class="small-text">Full Stack Developer</p>
+                <h1 class="large-text">Hi, I'm <span>Sahil</span> from India <br>Welcome !</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate about technology and problem-solving, I am Sahil a Full Stack Developer  with a keen interest in [backend with java , python ,flask and Front End like html css node.js and react ]. I thrive on creating innovative solutions and continuously learning new skills to stay ahead in the ever-evolving tech landscape.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Create Web Interface using HTML, CSS,Node.js,react.js</li>
+                            <li><span>Backend Developer</span><br>Work with Java, Python,C, flask and more...</li>
+                            <li><span>Database</span><br>Working with databases and good knowledge about SQL/NoSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>Final year student Create Web Interface</li>
+                            <li><span>Backend Developer</span><br>Work with Java, Python, and more...</li>
+                            <li><span>Database</span><br>Working with databases and good knowledge about SQL/NoSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2020</span><br>completed my 10th standered from BIHAR</li>
+                            <li><span>2021-2022</span><br>completed my 10+2 with science stream </li>
+                            <li><span>2022-2025</span><br>completed my graduation with B.Sc(IT) from BENGALORE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a Web Developer, I focus on creating visually appealing, user-friendly, and fully responsive websites. My expertise covers front-end technologies such as HTML, CSS, JavaScript, and frameworks like React. I ensure that websites are not only aesthetically pleasing but also functional across all devices and screen sizes. From designing intuitive layouts to implementing interactive features, I strive to provide an exceptional browsing experience for users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>Backend Developer</h2>
+                    <p>As a Backend Developer, I specialize in building scalable and efficient server-side logic using Java, Python, and C. I develop robust backend systems that integrate smoothly with front-end components and databases. My work includes API development, performance optimization, and ensuring that the backend architecture supports the business logic effectively. I focus on making sure applications are reliable, secure, and capable of handling high traffic</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database</h2>
+                    <p>With expertise in both SQL and NoSQL databases, I design, implement, and maintain robust database systems. I have hands-on experience working with relational databases like MySQL and PostgreSQL, as well as NoSQL databases like MongoDB. I focus on ensuring data integrity, scalability, and security, while optimizing queries and performance to handle large datasets efficiently.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>LIBRARY MANAGEMENT</h3>
+                        <p>A Library Management System designed to efficiently manage books, members, and transactions. It includes features like cataloging, advanced search, member registration, book issuance, and return tracking. The system ensures real-time availability updates, fine calculation, and secure data management, providing a seamless experience for librarians and users alike.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>E-COMMERCIAL WEBSITE</h3>
+                        <p>About it</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>BIRD GAME</h3>
+                        <p>A Bird Game built with Python and Pygame, featuring multiple bird types and dynamic backgrounds that change with levels. Players navigate a bird through obstacles, aiming for the highest score, with increasing difficulty and engaging visuals for an enhanced gaming experience</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="#" class="see-more">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> codewithkinu@gmil.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9315145594</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="http://www.instagram.com/dubbinut"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/codewithkinu"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="your-cv-link.pdf" class="download-cv" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; MD SAHIL 2024. All rights reserved. Before use anythings code or images kindly contact </p>
+        </div>
+    </footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Toggle Menu Function
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            const closeIcon = document.querySelector('.close-icon');
+            const menuIcon = document.querySelector('.menu-icon');
+            menu.classList.toggle('show');
+            menuIcon.style.display = menu.classList.contains('show') ? 'none' : 'block';
+            closeIcon.style.display = menu.classList.contains('show') ? 'block' : 'none';
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOQ0Az2D3Bubf4tefLvdgUtRBxLdE_PKXsSvUc5fwdYfyzE3Kce6P-pJHrji2zvyJ0/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+
+</html>
