@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SAHIL MD | PORTFOLIO</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+
+        <img src="assets/logo.png" class="logo" alt="logo">
+        
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#project">Project</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello! I'm <span class="sl">SAHIL</span></h4>
+        <h1>FULL STACK DEVELOPER</h1>
+        <p class="section__description">
+          I'm a passionate <span class="m">MERN stack </span>developer, crafting dynamic web applications with React-driven interfaces, powerful Node.js backends, and seamless MongoDB data management. From intuitive designs to scalable solutions, I bring ideas to life with clean, efficient code.
+        </p>
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+          <button class="btn btn__secondary">Read More</button>
+        </div>
+      </div>
+    </header>
+<!-------------------------------------------------about section --------------------------------------------------------------->
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h4><span class="sl">About me</span></h4>
+        <p class="section__description">
+          I am a passionate <span class="sl">MERN stack</span> developer, 
+          skilled in building dynamic, responsive, and scalable web applications. 
+          With expertise in React for intuitive UI design, Node.js and Express 
+          for robust backend functionality, and MongoDB for efficient data management, 
+          I create seamless, impactful web solutions. Always eager to innovate and enhance my skills, 
+          I aim to deliver exceptional digital experiences
+        </p>
+        <p class="section__description">
+          "When I'm not building web applications with the MERN stack, you can find me sipping on <span>a glass of cold coffee </span>while brainstorming my next project.<span style='font-size:15px;'>&#128516;</span>"
+        </p>
+        <div class="about__progress">
+          <h5><span class="sl">MERN STACK</span></h5>
+          <div class="about__progressbar" data-progress="95"><span></span></div>
+          <h5><span class="sl">JAVA</span></h5>
+          <div class="about__progressbar" data-progress="80"><span></span></div>
+          <h5><span class="sl">PYTHON</span></h5>
+          <div class="about__progressbar" data-progress="85"><span></span></div>
+          <h5><span class="sl">DSA</span></h5>
+          <div class="about__progressbar" data-progress="68"><span></span></div>
+        </div>
+      </div>
+    </section>
+<!-------------------------------------SERVICE SECTION what i do --------------------------------------------------->
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">  WHAT I DO ?</h2>
+        <p class="section__description">
+        I create full-stack web applications using <span class="sl">MERN</span> MongoDB, Express.js, React.js, and Node.js.
+        I design dynamic and responsive user interfaces with React,
+        build scalable and robust backend systems with Node.js and Express, 
+        and manage data storage with MongoDB. From handling server-side 
+        operations to building interactive, data-driven frontends, 
+        I deliver seamless web solutions that are both <span class="sl">efficient</span> and <span class="sl">scalable</span>
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-reactjs-line"></i></span>
+            <div>
+              <h4>Frontend Devlop</h4>
+              <p>
+                I built a responsive and dynamic user interface using HTML, CSS, React.js, and Tailwind CSS.
+                 React.js powered interactive components, while Tailwind CSS enabled rapid styling with a utility-first approach.
+                  The website adapts to different screen sizes, ensuring an optimal experience on both desktop and mobile
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-angularjs-fill"></i></span>
+            <div>
+              <h4>Backend</h4>
+              <p>
+                The backend was developed using Node.js and Express.js to 
+                create a fast and scalable server. Express.js handled 
+                API routes for user authentication and data management, 
+                ensuring efficient communication between the frontend and backend.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-database-2-fill"></i></span>
+            <div>
+              <h4>Database</h4>
+              <p>
+                I used MongoDB ,SQL as the database, 
+                with Mongoose for easy schema definition and CRUD operations. 
+                The database stores user and application data, with seamless 
+                integration into the backend to handle requests and provide 
+                data to the frontend.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-server-fill"></i></span>
+            <div>
+              <h4>Authentication and Authorization</h4>
+              <p>
+                Authorization is handled by checking the user's roles and permissions after 
+                successful authentication. Different routes and actions are accessible only 
+                if the user has the necessary permissions or roles (e.g., admin or user), 
+                ensuring restricted access to certain parts of the application based on user
+                privileges
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!------------------------------------EDUCATION/EXPERIENCE SECTION ----------------------------------------------------------->
+    <section class="section__container resume__container" id="resume">
+      <h2 class="section__header"><span class="sl">My Qualifications</span></h2>
+      <p class="section__description">
+        "From Code to Creation: A Passionate Developer 
+        Crafting Real-Time Solutions Across Frontend, Backend, and Databases 
+        with intrest in cyber security "
+
+      </p>
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+          <button class="btn active" data-tab="1">Education / Skill</button>
+          <button class="btn" data-tab="2">Experience</button>
+        </div>
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's Degree in Computer Science</h4>
+              <p class="section__description"></p>
+              <p class="section__description">
+               B.Sc in Computer science 
+               2021-2025[Goverment Science College BENGLORE]
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-global-fill"></i></span>
+              <h4>TECH SKILLS</h4>
+              <p class="section__description1">HTML/CSS</p>
+              <p class="section__description1">java script</p>
+              <p class="section__description1">Reactjs</p>
+              <p class="section__description1">Nodejs</p>
+              <p class="section__description1">MangoDB/SQL</p>
+              <p class="section__description1">Expreseejs</p>
+              <p class="section__description1">java</p>
+              <p class="section__description1">Python</p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-git-repository-line"></i></span>
+              <h4>SOFT SKILLS/ HOBBIES</h4>
+              <p class="section__description1">communication</p>
+              <p class="section__description1">Team Management</p>
+              <p class="section__description1">Time Management</p>
+              <p class="section__description1">Problem Solving</p>
+              <p class="section__description1">Eager to Learn</p>
+              <p class="section__description1">Critical Thinking</p>
+              <p class="section__description1">Book Reading</p>
+              <p class="section__description1">Chess</p>
+              <p class="section__description1">Story writing</p>
+
+            </div>
+            
+          </div>
+          <div class="panel__grid" data-panel="2">
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>LOOKING FORWARD </h4>
+              <p class="section__description">
+             
+              </p>
+              <p class="section__description">
+                
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4> LOOKING FORWARD</h4>
+              <p class="section__description"></p>
+              <p class="section__description">
+              
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>LOOKING FORWARD </h4>
+              <p class="section__description"></p>
+              <p class="section__description">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!---------------------------------------------HIGLIGHT BANNER-------------------------------------------------------------->
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__card">
+          <h4>10+</h4>
+          <p>Completed Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>5+</h4>
+          <p>MERN Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>12+</h4>
+          <p>hackathon and webminar</p>
+        </div>
+        <div class="banner__card">
+          <h4>10+</h4>
+          <p>Promamming language</p>
+        </div>
+      </div>
+    </section>
+<!-----------------------------------------------TESTROMONIAL (CLIENT SECTION)---------------------------------------------------->
+<section class="client">
+  <div class="section__container client__container">
+    <h2 class="section__header"><span class="sl">Happy Clients</span> Says</h2>
+    <p class="section__description">
+     This is the sample of testimonial which is totally vertual. I have created this section for future use .
+
+      <span class="sl">“Want to be my first testimonial? Let’s collaborate!”</span>
+    </p>
+    
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <p>
+              Their ability to create visually stunning and highly
+              functional designs is exceptional. As the CEO of Digital
+              Dynamics Agency, I have witnessed firsthand the positive
+              impact they have on our projects.   <span class="sl">scroll left / right too see more</span>
+            </p>
+         
+
+            <h4><span class="sl">Michael Rodriguez</span></h4>
+            <h5>CEO, Digital Dynamics Agency</h5>
+            <img src="assets/client-1.jpg" alt="client" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <p>
+              Working with Cooper was a revelation! Their designs not only
+              captured the essence of our brand but elevated it to new
+              heights.
+            </p>
+            <h4><span class="sl">Sarah Johnson</span></h4>
+            <h5>Marketing Director, Tech Innovations Inc.</h5>
+            <img src="assets/client-2.jpg" alt="client" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <p>
+              I had the pleasure of collaborating with them on a critical
+              project for Innovate Startups. Their ability to translate our
+              brand vision into a visually compelling user experience was
+              truly impressive.
+            </p>
+            <h4><span class="sl">Alexendra thompson</span></h4>
+            <h5>Founder, Innovate Startups</h5>
+            <img src="assets/client-3.jpg" alt="client" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------------------------------------------PROJECT SECTION-------------------------------------------------------->
+    <section class="section__container project__container" id="project">
+      <h2 class="section__header"><span class="sl">Projects based on [MERN]</span></h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <img src="assets/project-1.jpg" alt="project" />
+          <div class="project__content">
+            <h4><span class="sl">E-Commercial website</span></h4>
+            <p class="section__description">
+              full responshive e-commercial website created with MERN 
+              used tecnology : HTML, CSS, reactjs, Nodejs, Expressjs, Sql, MangoDB
+            </p>
+            <div>
+              <a href="#">See Demo <i class="ri-external-link-fill"></i></a>
+              <div class="project__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="assets/project-2.jpg" alt="project" />
+          <div class="project__content">
+            <h4><span class="sl">Text to image using AI</span></h4>
+            <p class="section__description">
+              A text to image generter using ai 
+              based on APIs . first come credit free after that using 
+              purchase . Used rozerpay APIs fully functionated
+            </p>
+            <div>
+              <a href="#">See Demo <i class="ri-external-link-fill"></i></a>
+              <div class="project__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="assets/project-3.jpg" alt="project" />
+          <div class="project__content">
+            <h4><span class="sl">Appointment Booking web</span></h4>
+            <p class="section__description">
+             fully funcnated with 3 log in system as patent admin doctor 
+             payment system , mannage doctor , patents throw admin pannel
+            </p>
+            <div>
+              <a href="#">See Demo<i class="ri-external-link-fill"></i></a>
+              <div class="project__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!------------------------------------------------------------CONTACT SECTION -------------------------------------------->
+<footer class="footer" id="contact">
+  <div class="section__container footer__container">
+    <h2 class="section__header"><span class="sl">Thanks for reaching here ! Connect with ME</span></h2>
+    <div class="section__description">
+      A testament to my commitment, these testimonials highlight the satisfaction of clients 
+      who’ve experienced my dedicated 24/7 support.
+    </div>
+
+    <div class="footer__grid">
+      <div class="footer__content">
+        <h4><span class="sl">MD SAHIL</span></h4>
+        <p>
+          Explore more of my work, connect with me on social media, or drop
+          a message.
+        </p>
+        <p>
+          Let's continue the conversation and embark on new creative
+          journeys together.
+        </p>
+        <p><span class="sl">Thanks for taking the time to connect!</span></p>
+        <p><span class="sl">after click on send message please wait 3 sec for confirmation </span></p>
+
+        <div class="footer__socials">
+          <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+          <a href="http://www.linkedin.com/in/codewithkinu" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+          <a href="http://www.instagram.com/dubbinut" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+          <a href="#" aria-label="Send Message"><i class="ri-send-plane-fill"></i></a>
+          <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="wa.me/+91 9315145594" aria-label="GitHub"><i class="ri-whatsapp-fill"></i></a>
+          <a href="mailto:codewithkinu@gmail.com" aria-label="Email"><i class="ri-mail-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__form">
+        <div class="footer__form">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn__primary">Send Message</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</footer>
+<!---------------------footer--------------------------------------->
+      <div class="footer__bar">
+        Copyright © 2024 SAHIL MD. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+   
+    <video autoplay muted loop id="background-video">
+      <source src="assets/header.mp4" type="video/mp4">
+
+    </video>
+
+  </body>
+</html>
